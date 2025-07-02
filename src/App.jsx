@@ -1,7 +1,12 @@
 import React from "react";
+import Quiz from "./Components/Quiz/Quiz";
 
 function App() {
-  return <div></div>;
+  return (
+    <div>
+      <Quiz />
+    </div>
+  );
 }
 
 export default App;

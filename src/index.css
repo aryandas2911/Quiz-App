@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(#4A00E0,#8E2DE2) ;
+    font-family: "Poppins", sans-serif;;
+}
