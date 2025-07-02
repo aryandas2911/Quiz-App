@@ -7,13 +7,13 @@ function Quiz() {
       <h1>Quiz App</h1>
       <hr />
       <h2>
-        1. Which of the following is a type of supervised learning algorithm?
+        1. What type of algorithm is used when the data has input-output pairs?
       </h2>
       <ul>
-        <li>K-Means Clustering</li>
-        <li>Principal Component Analysis</li>
-        <li>Decision Tree</li>
-        <li>Apriori Algorithm</li>
+        <li>Unsupervised</li>
+        <li>Reinforcement</li>
+        <li>Supervised</li>
+        <li>Clustering</li>
       </ul>
       <button>Next</button>
       <div className="index">1 of 5 questions</div>
