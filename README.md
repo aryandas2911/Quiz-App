@@ -57,7 +57,7 @@ Result:
 1. Clone the repository  
    ```bash
    git clone https://github.com/aryandas2911/Quiz-App.git
-   cd Quiz-App
+   cd quiz-app
    npm install
    npm start
 The app should now be running on http://localhost:3000 🎉
