@@ -1,4 +1,4 @@
-.container{
+.container {
     width: 640px;
     margin: auto;
     margin-top: 50px;
@@ -9,20 +9,21 @@
     gap: 20px;
     border-radius: 15px;
     padding: 40px 50px;
+    animation: fadeIn 0.6s ease;
 }
 
-.container hr{
+.container hr {
     height: 3px;
     border: none;
     background-color: #616161;
 }
 
-.container h2{
+.container h2 {
     font-size: 25px;
     font-weight: 500;
 }
 
-.container ul li{
+.container ul li {
     display: flex;
     align-items: center;
     height: 60px;
@@ -32,35 +33,77 @@
     margin-bottom: 15px;
     cursor: pointer;
     border-radius: 10px;
+    transition: all 0.3s ease;
 }
 
-.container button{
+.container ul li:hover {
+    transform: scale(1.02);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container button {
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
     font-size: 25px;
-    font-weight: 500px;
+    font-weight: 500;
     height: 55px;
     width: 250px;
     margin: auto;
     background-color: #5f20dd;
     color: white;
     border-radius: 10px;
-
+    transition: all 0.3s ease;
 }
 
-.index{
+.container button:hover {
+    background-color: #4a14c1;
+    transform: scale(1.03);
+}
+
+.container button:active {
+    transform: scale(0.97);
+}
+
+.index {
     margin: auto;
     font-size: 20px;
 }
 
-.container .correct{
+.container .correct {
     background: #dffff2;
     border-color: #00d397;
+    animation: bounce 0.4s ease;
+    transition: all 0.3s ease;
 }
 
-.container .wrong{
+.container .wrong {
     background: #FFEBEB;
     border-color: #FF4A4A;
+    animation: bounce 0.4s ease;
+    transition: all 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes bounce {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
