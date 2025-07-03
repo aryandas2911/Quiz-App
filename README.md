@@ -1,12 +1,71 @@
-# React + Vite
+# 🧠 Quiz App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive **Quiz App** built using **React.js** to practice and improve JavaScript logic and frontend skills.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🎯 Multiple-choice questions
+- ✅ Real-time scoring and feedback
+- 🔄 Option to restart the quiz
+- ⚛️ Built with reusable React components
+- 📱 Responsive design for all screen sizes
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 💡 Purpose
+
+This project was created as a **mini learning project** to:
+- Strengthen JavaScript logic-building skills
+- Gain hands-on experience with React.js
+- Practice component-based architecture and state management
+
+---
+
+## 🛠️ Tech Stack
+
+- **React.js**
+- **JavaScript (ES6+)**
+- **HTML5**
+- **CSS3**
+
+---
+
+## 📸 Preview
+
+Quiz App:
+
+![Quiz App Screenshot](Quiz-App.png)
+
+---
+
+## 🔗 Demo Screenshots
+
+Option Selecting:
+
+![Selection Screenshot](Selection.png)
+
+Result:
+
+![Result Screenshot](Result.png)
+
+---
+
+## 📂 How to Run Locally
+
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/aryandas2911/Quiz-App.git
+   cd Quiz-App
+   npm install
+   npm start
+The app should now be running on http://localhost:3000 🎉
+
+---
+
+## 🙌 Feedback
+
+I'm constantly learning and open to suggestions!
+Feel free to open an issue or submit a PR with improvements.
+
